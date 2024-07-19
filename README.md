@@ -1,17 +1,26 @@
-# Hi-Res Redirector
+<!--![Hi-Res Redirector](/icons/Hi-Res%20Redirector%20Icon_256.png)-->
 
 <div align="center">
+  <img src="/icons/Hi-Res%20Redirector%20Icon_256.png" alt="Hi-Res Redirector Icon"  title="Hi-Res Redirector" />
+</div>
+
+<br>
+
+<div align="center" style="padding-top: 2vh;">
 
 [![GitHub Release](https://img.shields.io/github/v/release/kjanat/Hi-Res-Redirector?display_name=tag&style=for-the-badge)](https://github.com/kjanat/Hi-Res-Redirector/releases/latest "Latest release")
 [![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/dhbcbfobeiomanfcigonldkgpaelffmb?style=for-the-badge&logo=chromewebstore&logoColor=4285F4&color=4285F4&link=https%3A%2F%2Fchromewebstore.google.com%2Fdetail%2Fdhbcbfobeiomanfcigonldkgpaelffmb)](https://chromewebstore.google.com/detail/dhbcbfobeiomanfcigonldkgpaelffmb "Chrome Web Store Downloads")
-<!--[![Donate](https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](DONATION-URL "Donate")-->
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fchromewebstore.google.com%2Fdetail%2Fdhbcbfobeiomanfcigonldkgpaelffmb&up_message=avaliable&down_message=unavailable&style=for-the-badge&label=extension)](https://chromewebstore.google.com/detail/dhbcbfobeiomanfcigonldkgpaelffmb "Chrome Web Store")
+
 [![Supported Sites](https://img.shields.io/badge/-Supported_Sites-brightgreen.svg?style=for-the-badge)](manifest.json#L15-L30 "Supported Sites")
 [![GitHub License](https://img.shields.io/github/license/kjanat/hi-res-redirector?style=for-the-badge)](LICENSE.txt "License")
-<!--[![CI Status](https://img.shields.io/github/actions/workflow/status/kjanat/Hi-Res-Redirector/core.yml?branch=master&label=Tests&style=for-the-badge)](https://github.com/kjanat/Hi-Res-Redirector/actions "CI Status")-->
 [![Commits](https://img.shields.io/github/commit-activity/m/kjanat/Hi-Res-Redirector?label=commits&style=for-the-badge)](https://github.com/kjanat/Hi-Res-Redirector/commits "Commit History")
 [![GitHub last commit](https://img.shields.io/github/last-commit/kjanat/Hi-Res-Redirector?style=for-the-badge&display_timestamp=committer)](https://github.com/kjanat/Hi-Res-Redirector/pulse/monthly "Last activity")
-<!--[![Last Commit](https://img.shields.io/github/last-commit/kjanat/Hi-Res-Redirector?label=&style=for-the-badge&display_timestamp=committer)](https://github.com/kjanat/Hi-Res-Redirector/pulse/monthly "Last activity")-->
+
+</div>
+<div align="center" >
+
+# Hi-Res Redirector
 
 </div>
 
