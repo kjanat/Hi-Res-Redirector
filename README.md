@@ -1,8 +1,8 @@
 <!--![Hi-Res Redirector](/icons/Hi-Res%20Redirector%20Icon_256.png)-->
 
 <div align="center">
-  <img src="/icons/Hi-Res%20Redirector%20Icon_256.png" alt="Hi-Res Redirector Icon"  title="Hi-Res Redirector" />
-</div>
+
+![Icon](https://raw.githubusercontent.com/kjanat/Hi-Res-Redirector/main/icons/Hi-Res%20Redirector.svg)
 
 <br>
 
