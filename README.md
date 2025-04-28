@@ -1,20 +1,23 @@
-<!--![Hi-Res Redirector](/icons/Hi-Res%20Redirector%20Icon_256.png)-->
-
 <div align="center">
 
-[![Icon](https://raw.githubusercontent.com/kjanat/Hi-Res-Redirector/main/icons/Hi-Res%20Redirector.svg)][1]
+[![Icon](./icons/Hi-Res%20Redirector.svg)][Install]
 
 </div>
 
 <div align="center" style="padding: 2vh 10vw 1vh 10vw; display: flex; flex-basis: auto; flex-wrap: wrap; flex-shrink: 1; flex-flow: row wrap; float: inline-flex; justify-content: space-around; justify-items: center;">
 
-[![GitHub Release](https://img.shields.io/github/v/release/kjanat/Hi-Res-Redirector?display_name=tag&style=for-the-badge)][2]
-[![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/dhbcbfobeiomanfcigonldkgpaelffmb?style=for-the-badge&logo=chromewebstore&logoColor=4285F4&color=4285F4&link=https%3A%2F%2Fchromewebstore.google.com%2Fdetail%2Fdhbcbfobeiomanfcigonldkgpaelffmb)][3]
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fchromewebstore.google.com%2Fdetail%2Fdhbcbfobeiomanfcigonldkgpaelffmb&up_message=avaliable&down_message=unavailable&style=for-the-badge&label=extension)][3]
-[![Supported Sites](https://img.shields.io/badge/-Supported_Sites-brightgreen.svg?style=for-the-badge)][4]
-[![GitHub License](https://img.shields.io/github/license/kjanat/hi-res-redirector?style=for-the-badge)][5]
-[![Commits](https://img.shields.io/github/commit-activity/m/kjanat/Hi-Res-Redirector?label=commits&style=for-the-badge)][6]
-[![GitHub last commit](https://img.shields.io/github/last-commit/kjanat/Hi-Res-Redirector?style=for-the-badge&display_timestamp=committer)][7]
+[![Release](https://img.shields.io/github/v/release/kjanat/Hi-Res-Redirector?display_name=tag&style=for-the-badge&logo=github)][Latest Release]
+[![License](https://img.shields.io/github/license/kjanat/hi-res-redirector?style=for-the-badge)][License]
+[![Commits](https://img.shields.io/github/commit-activity/m/kjanat/Hi-Res-Redirector?label=commits&style=for-the-badge)][Commit History]
+[![Last commit](https://img.shields.io/github/last-commit/kjanat/Hi-Res-Redirector?style=for-the-badge&display_timestamp=committer)][Last activity]
+
+[![Store Version](https://img.shields.io/chrome-web-store/v/dhbcbfobeiomanfcigonldkgpaelffmb?style=for-the-badge&logo=chromewebstore&logoColor=white)][Chrome Web Store]
+[![Store Size](https://img.shields.io/chrome-web-store/size/dhbcbfobeiomanfcigonldkgpaelffmb?style=for-the-badge&label=size)][Chrome Web Store]
+[![Store Users](https://img.shields.io/chrome-web-store/users/dhbcbfobeiomanfcigonldkgpaelffmb?style=for-the-badge&color=4285F4&link=https%3A%2F%2Fchromewebstore.google.com%2Fdetail%2Fdhbcbfobeiomanfcigonldkgpaelffmb)][Chrome Web Store]
+[![Store Status](https://img.shields.io/website?url=https%3A%2F%2Fchromewebstore.google.com%2Fdetail%2Fdhbcbfobeiomanfcigonldkgpaelffmb&up_message=available&down_message=unavailable&style=for-the-badge&label=)][Chrome Web Store]
+[![Store Rating](https://img.shields.io/chrome-web-store/rating/dhbcbfobeiomanfcigonldkgpaelffmb?style=for-the-badge&link=https%3A%2F%2Fchromewebstore.google.com%2Fdetail%2Fdhbcbfobeiomanfcigonldkgpaelffmb)][Chrome Web Store]
+
+[![Supported Sites](https://img.shields.io/badge/-Supported_Sites-brightgreen.svg?style=for-the-badge)][Supported Sites]
 
 </div>
 
@@ -36,6 +39,9 @@ this extension ensures you get the best image quality available.
 - **eBay**: Redirects to high-definition eBay product photos, eliminating blurry item images.
 - **BBC**: Enjoy crystal clear visuals when browsing BBC images.
 - **More Supported Sites**: Includes support for Marktplaats, Nike, YouTube, AliExpress, and Google User Content, enhancing images across these platforms.
+- **Customizable Settings**: Enable or disable redirects for specific websites to tailor the extension to your preferences.
+- **Debug Mode**: Get visual notifications when redirects happen (useful for developers and curious users).
+- **Performance Optimized**: Lightweight code that won't slow down your browsing experience.
 
 ## How It Works
 
@@ -44,11 +50,36 @@ it works in the background to modify the image URLs.
 If a higher quality or more direct version of the image is found,
 it seamlessly redirects you to that image, ensuring optimal image quality without any additional effort.
 
+## Usage Examples
+
+### Amazon Images
+- **Before**: `https://m.media-amazon.com/images/I/71cJLMtNmQL._AC_SL1500_.jpg`
+- **After**: `https://m.media-amazon.com/images/I/71cJLMtNmQL.jpg`
+
+### YouTube Thumbnails
+- **Before**: `https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg`
+- **After**: `https://i.ytimg.com/vi_webp/dQw4w9WgXcQ/maxresdefault.webp`
+
+### BBC Images
+- **Before**: `https://ichef.bbci.co.uk/images/ic/400x225/p0gq0v7y.jpg`
+- **After**: `https://ichef.bbci.co.uk/images/ic/1920x1080/p0gq0v7y.jpg`
+
+## Configuration Options
+
+Hi-Res Redirector now includes a settings page where you can customize its behavior:
+
+1. **Site-Specific Toggles**: Enable or disable redirects for individual sites.
+2. **Debug Mode**: Enable visual notifications and console logging for troubleshooting.
+
+To access the options page:
+- Right-click on the extension icon in your browser toolbar
+- Select "Options" from the dropdown menu
+
 ## Install
 
 ### Get it from the Chrome Web Store
 
-To install the Hi-Res Redirector browser extension, simply visit the [Chrome Web Store][3] and click on the "Add to Chrome" button.
+To install the Hi-Res Redirector browser extension, simply visit the [Chrome Web Store][Chrome Web Store] and click on the "Add to Chrome" button.
 Once installed, the extension will be ready to enhance your online visual experience
 by automatically redirecting you to higher quality or alternative versions of images on supported websites.
 
@@ -56,14 +87,14 @@ by automatically redirecting you to higher quality or alternative versions of im
 
 If you prefer to manually install the Hi-Res Redirector browser extension, follow these steps:
 
-1. Download the extension files from the [GitHub repository][2].
+1. Download the extension files from the [GitHub repository][Latest Release].
 2. Extract the downloaded ZIP file to a location on your computer.
 3. Open your browser and go to the extensions management page. For Chrome, you can access it by typing `chrome://extensions` in the address bar.
 4. Enable the "Developer mode" toggle switch, usually located at the top right corner of the page.
 5. Click on the "Load unpacked" button and select the folder where you extracted the extension files.
 6. The Hi-Res Redirector extension should now be installed and ready to use.
 
-> [!NOTE]
+> [!CAUTION]
 > Manually installed extensions will not receive automatic updates.
 > You will need to manually update the extension by repeating
 > these steps whenever a new version is available.
@@ -85,15 +116,53 @@ Once deployed, the Hi-Res Redirector extension will be automatically installed o
 > [!NOTE]
 > Deploying extensions through Google Admin requires administrative privileges
 > and may vary depending on your organization's settings and policies.
-    
+
+## For Developers
+
+### Project Structure
+- `manifest.json`: Extension configuration 
+- `content.js`: Core functionality with site-specific image processors
+- `options.html` & `options.js`: Settings UI and functionality
+- `icons/`: Extension icons in various sizes
+
+### Contributing
+Contributions are welcome! Here's how you can help:
+1. **Add Support for More Sites**: Implement new image processors in `content.js`
+2. **Improve Existing Redirectors**: Enhance regex patterns for better accuracy
+3. **Report Bugs**: Submit issues for any problems you encounter
+4. **Suggest Features**: Have an idea? Open a feature request!
+
+### Development Setup
+1. Clone the repository
+2. Make your changes
+3. Test locally using Chrome's "Load unpacked" feature
+4. Submit a pull request with your improvements
+
 ## Privacy
 
 The Hi-Res Redirector does not store, transmit, or sell your data. It operates solely within your browser, ensuring your privacy is protected.
 
-[1]: #install
-[2]: https://github.com/kjanat/Hi-Res-Redirector/releases/latest "Latest release"
-[3]: https://chromewebstore.google.com/detail/dhbcbfobeiomanfcigonldkgpaelffmb "Chrome Web Store"
-[4]: manifest.json#L15-L30 "Supported Sites"
-[5]: LICENSE.txt "License"
-[6]: https://github.com/kjanat/Hi-Res-Redirector/commits "Commit History"
-[7]: https://github.com/kjanat/Hi-Res-Redirector/pulse/monthly "Last activity"
+## Changelog
+
+### v0.2.0
+- Added options page for customizing site-specific redirects
+- Implemented debug mode with visual notifications
+- Refactored code for better maintainability
+- Added performance monitoring in debug mode
+- Improved error handling
+
+### v0.1.0
+- Initial public release
+- Support for Amazon, eBay, BBC, Adidas, Nike, Marktplaats, YouTube, AliExpress, and Google images
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+[Install]: #install
+[Latest Release]: https://github.com/kjanat/Hi-Res-Redirector/releases/latest "Latest release"
+[Chrome Web Store]: https://chromewebstore.google.com/detail/dhbcbfobeiomanfcigonldkgpaelffmb "Chrome Web Store"
+[Supported Sites]: manifest.json#L15-L30 "Supported Sites"
+[License]: LICENSE "License"
+[Commit History]: https://github.com/kjanat/Hi-Res-Redirector/commits "Commit History"
+[Last activity]: https://github.com/kjanat/Hi-Res-Redirector/pulse/monthly "Last activity"
