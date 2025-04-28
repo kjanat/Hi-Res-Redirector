@@ -1,2 +1,4 @@
+.vs/
 *.ai
 Chrome Store*.png
+# .github/workflows/publish.yml

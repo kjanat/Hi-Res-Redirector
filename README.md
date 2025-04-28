@@ -39,6 +39,9 @@ this extension ensures you get the best image quality available.
 - **eBay**: Redirects to high-definition eBay product photos, eliminating blurry item images.
 - **BBC**: Enjoy crystal clear visuals when browsing BBC images.
 - **More Supported Sites**: Includes support for Marktplaats, Nike, YouTube, AliExpress, and Google User Content, enhancing images across these platforms.
+- **Customizable Settings**: Enable or disable redirects for specific websites to tailor the extension to your preferences.
+- **Debug Mode**: Get visual notifications when redirects happen (useful for developers and curious users).
+- **Performance Optimized**: Lightweight code that won't slow down your browsing experience.
 
 ## How It Works
 
@@ -46,6 +49,31 @@ Once activated, the extension monitors the URLs you visit. When it detects you'r
 it works in the background to modify the image URLs.
 If a higher quality or more direct version of the image is found,
 it seamlessly redirects you to that image, ensuring optimal image quality without any additional effort.
+
+## Usage Examples
+
+### Amazon Images
+- **Before**: `https://m.media-amazon.com/images/I/71cJLMtNmQL._AC_SL1500_.jpg`
+- **After**: `https://m.media-amazon.com/images/I/71cJLMtNmQL.jpg`
+
+### YouTube Thumbnails
+- **Before**: `https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg`
+- **After**: `https://i.ytimg.com/vi_webp/dQw4w9WgXcQ/maxresdefault.webp`
+
+### BBC Images
+- **Before**: `https://ichef.bbci.co.uk/images/ic/400x225/p0gq0v7y.jpg`
+- **After**: `https://ichef.bbci.co.uk/images/ic/1920x1080/p0gq0v7y.jpg`
+
+## Configuration Options
+
+Hi-Res Redirector now includes a settings page where you can customize its behavior:
+
+1. **Site-Specific Toggles**: Enable or disable redirects for individual sites.
+2. **Debug Mode**: Enable visual notifications and console logging for troubleshooting.
+
+To access the options page:
+- Right-click on the extension icon in your browser toolbar
+- Select "Options" from the dropdown menu
 
 ## Install
 
@@ -88,10 +116,35 @@ Once deployed, the Hi-Res Redirector extension will be automatically installed o
 > [!NOTE]
 > Deploying extensions through Google Admin requires administrative privileges
 > and may vary depending on your organization's settings and policies.
-    
+
+## For Developers
+
+### Project Structure
+- `manifest.json`: Extension configuration 
+- `content.js`: Core functionality with site-specific image processors
+- `options.html` & `options.js`: Settings UI and functionality
+- `icons/`: Extension icons in various sizes
+
+### Contributing
+Contributions are welcome! Here's how you can help:
+1. **Add Support for More Sites**: Implement new image processors in `content.js`
+2. **Improve Existing Redirectors**: Enhance regex patterns for better accuracy
+3. **Report Bugs**: Submit issues for any problems you encounter
+4. **Suggest Features**: Have an idea? Open a feature request!
+
+### Development Setup
+1. Clone the repository
+2. Make your changes
+3. Test locally using Chrome's "Load unpacked" feature
+4. Submit a pull request with your improvements
+
 ## Privacy
 
 The Hi-Res Redirector does not store, transmit, or sell your data. It operates solely within your browser, ensuring your privacy is protected.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 [Install]: #install
 [Latest Release]: https://github.com/kjanat/Hi-Res-Redirector/releases/latest "Latest release"

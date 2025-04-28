@@ -1,0 +1,26 @@
+name: Publish
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  chrome-web-store:
+    name: Publish to Chrome Web Store
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: zip extension
+      run: |
+        mkdir -p dist
+        zip -r dist/extension.zip . -x "*.git*" "*.github*" "*.vscode*" "*.DS_Store*" "dist/*" "node_modules/*" "package-lock.json" "package.json" "LICENSE" ".gitignore" ".gitattributes"
+    - name: Publish Chrome extension to Chrome Web Store
+      uses: MobileFirstLLC/cws-publish@569e87bc9a54ad7712ba6dc154a110d88af63b85
+      with:
+        action: upload # explicitly set to upload
+        client_id: ${{ secrets.STORE_CLIENT_ID }} # Webstore API client id parameter
+        client_secret: ${{ secrets.STORE_CLIENT_SECRET }} # Webstore API client secret parameter
+        refresh_token: ${{ secrets.STORE_REFRESH_TOKEN }} # Webstore API refresh token
+        extension_id: dhbcbfobeiomanfcigonldkgpaelffmb # Unique identifier of the Chrome extension
+        zip_file: dist/extension.zip # Path to extension .zip file
