@@ -142,19 +142,6 @@ Contributions are welcome! Here's how you can help:
 
 The Hi-Res Redirector does not store, transmit, or sell your data. It operates solely within your browser, ensuring your privacy is protected.
 
-## Changelog
-
-### v0.2.0
-- Added options page for customizing site-specific redirects
-- Implemented debug mode with visual notifications
-- Refactored code for better maintainability
-- Added performance monitoring in debug mode
-- Improved error handling
-
-### v0.1.0
-- Initial public release
-- Support for Amazon, eBay, BBC, Adidas, Nike, Marktplaats, YouTube, AliExpress, and Google images
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
